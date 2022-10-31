@@ -119,7 +119,7 @@ int main()
     std::cin>>req;
     if(req != "n")
     {
-        std::cout<<"would you like each step printed, know it will be slower? (y for yes, default no)";
+        std::cout<<"would you like each step printed (it will be slower)? (y for yes, default no)";
         std::string pri;
         std::cin >> pri;
         std::cout<< "working on solution\n";
